@@ -15,6 +15,7 @@
 		000000000000000000000120 /* Conte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD4DBA93086533D003291F8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AFD4DBAB30865426003291F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AFD4DBAD30865440003291F8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,6 +41,7 @@
 				000000000000000000000010 /* Conte */,
 				AFD4DBA93086533D003291F8 /* LICENSE */,
 				AFD4DBAB30865426003291F8 /* README.md */,
+				AFD4DBAD30865440003291F8 /* Makefile */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
