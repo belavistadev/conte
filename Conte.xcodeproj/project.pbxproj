@@ -6,8 +6,13 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AFD4DBAA3086533D003291F8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AFD4DBA93086533D003291F8 /* LICENSE */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* Conte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD4DBA93086533D003291F8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -31,6 +36,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000010 /* Conte */,
+				AFD4DBA93086533D003291F8 /* LICENSE */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +108,7 @@
 		000000000000000140000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				AFD4DBAA3086533D003291F8 /* LICENSE in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
