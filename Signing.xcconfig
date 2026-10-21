@@ -1,0 +1,8 @@
+// Development team used to sign every target in Conte.
+//
+// Not on the Carahiba team? Create a Signing.local.xcconfig next to this file
+// (it's ignored by git) with your own team.
+
+DEVELOPMENT_TEAM =
+
+#include? "Signing.local.xcconfig"

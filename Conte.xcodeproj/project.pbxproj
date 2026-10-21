@@ -27,6 +27,7 @@
 		AFD4DBAB30865426003291F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AFD4DBAD30865440003291F8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		AFD4DBB930865460003291F8 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD4DBC230865500003291F8 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -63,6 +64,7 @@
 				AFD4DBA93086533D003291F8 /* LICENSE */,
 				AFD4DBAB30865426003291F8 /* README.md */,
 				AFD4DBAD30865440003291F8 /* Makefile */,
+				AFD4DBC230865500003291F8 /* Signing.xcconfig */,
 				AFD4DBBA30865460003291F8 /* Tests */,
 				000000000000000000000020 /* Products */,
 			);
@@ -197,6 +199,7 @@
 /* Begin XCBuildConfiguration section */
 		000000000000000011000000 /* Debug configuration for PBXProject "Conte" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD4DBC230865500003291F8 /* Signing.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -268,6 +271,7 @@
 		};
 		000000000000000012000000 /* Release configuration for PBXProject "Conte" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD4DBC230865500003291F8 /* Signing.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -331,6 +335,7 @@
 		};
 		000000000000000111000000 /* Debug configuration for PBXNativeTarget "Conte" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD4DBC230865500003291F8 /* Signing.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -373,6 +378,7 @@
 		};
 		000000000000000112000000 /* Release configuration for PBXNativeTarget "Conte" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD4DBC230865500003291F8 /* Signing.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -415,6 +421,7 @@
 		};
 		AFD4DBBF30865460003291F8 /* Debug configuration for PBXNativeTarget "Tests" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD4DBC230865500003291F8 /* Signing.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +449,7 @@
 		};
 		AFD4DBC030865460003291F8 /* Release configuration for PBXNativeTarget "Tests" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD4DBC230865500003291F8 /* Signing.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
