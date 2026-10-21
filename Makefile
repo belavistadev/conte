@@ -2,7 +2,7 @@
 APP = Conte
 SCHEME = $(APP)
 PROJECT = $(SCHEME).xcodeproj
-BUNDLE_ID = dev.belavista.Conte
+BUNDLE_ID = br.com.carahiba.Conte
 
 # Development
 BUILD_DIR = .build
